@@ -1,2 +1,2 @@
-~CHOOSE ME 😤😤😤😤~
-I'll WORK HARD
+//CHOOSE ME 😤😤😤😤
+//I'll WORK HARD
