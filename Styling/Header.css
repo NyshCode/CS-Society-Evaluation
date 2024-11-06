@@ -1,0 +1,86 @@
+.Header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 12px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid ;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.Left-section {
+  width: 172px;
+  display: flex;
+  align-items: center;
+}
+
+.VHack-Logo {
+  height: 32px;
+  margin-right: 7px;
+}
+
+.VHack-Name {
+  color: white;
+  font-family: Skranji;
+  font-size: 20px;
+}
+
+.Right-section {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+
+.login-button {
+  margin-left: 16px;
+  height: 48px;
+  width: 87;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(238, 148, 85);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: white;
+}
+
+.div-header-buttons {
+  background-color: rgba(15, 23, 26, 0.6);
+  border-radius: 6px;
+  height: 36px;
+  width: 786px;
+  padding: 8px 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-header-buttons button {
+  border: none;
+  background: none;
+  color: white;
+  font-family: Proza Libre;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+}
+
+.div-header-buttons button:hover {
+  color: lightblue;
+  background-color: #162227;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}

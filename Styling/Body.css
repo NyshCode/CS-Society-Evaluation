@@ -1,0 +1,142 @@
+.the-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.team-flexbox-1 {
+  min-width: 680px;
+}
+
+.team-flexbox-2 {
+  flex: 1;
+}
+
+.team-buttons {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-title {
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  color: rgb(239, 246, 139);
+  font-size: 48px;
+  font-family: Skranji;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.team-body-buttons {
+  position: absolute;
+  top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.team-body-buttons button {
+  margin: 6px;
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  color: white;
+  font-family: Proza Libre;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.team-body-buttons button:hover {
+  color: lightblue;
+  background-color: #162329;
+  border-radius: 8px;
+}
+
+.member-profile {
+  margin-top: 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+.member-profile-flexbox {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 176px;
+  height: auto;
+  clip-path: inset(0 0 30% 0);
+  background-color: white;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+}
+
+.profile-name {
+  color: rgb(237, 249, 255);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Proza Libre;
+}
+
+.profile-position {
+  color: rgb(237, 249, 255);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Proza Libre;
+  margin-top: -25px;
+}
+
+.profile-position-name {
+  color: rgb(237, 249, 255);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Proza Libre;
+  margin-top: -25px;
+}
+
+.social {
+  color: rgba(237, 249, 255, 0.5);
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+  margin-top: -5px;
+}
